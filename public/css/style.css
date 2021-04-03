@@ -1,0 +1,115 @@
+.container {
+    width: 90%;
+    /* border: 1px solid #999; */
+    margin: 0 auto 20px;
+    padding: 20px 10px;
+}
+
+.auth-form-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content-table {
+    overflow-x: auto;
+    box-shadow: 2px 2px 3px 2px rgba(0,0,0,.2);
+}
+
+.panel {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 20px;
+
+}
+
+.panel div {
+    margin-right: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+th, td {
+    border: 1px solid #999;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+form {
+    margin: 10px 0;
+}
+
+input {
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 4px 6px;
+}
+
+.filter-form input {
+    display: inline;
+    
+}
+
+.auth-form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 6px;
+}
+
+
+button {
+    display: inline-block;
+    padding: 4px 6px;
+    border: 1px solid rgb(23, 143, 255);
+    border-radius: 3px;
+    color: #fff;
+    background: rgb(23, 143, 255);
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+
+
+a {
+    text-decoration: none;
+    
+}
+
+.error-message {
+    display: inline-block;
+    border-radius: 5px;
+    color: rgba(255, 0, 0, 0.9);
+    background: rgba(255, 0, 0, 0.2);
+    padding: 10px;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+
+@media (min-width: 640px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (min-width: 768px) { 
+    .container {
+        width: 60%;
+    }
+
+    .auth-form-container {
+        width: 50%;
+    }
+}
